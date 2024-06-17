@@ -4,6 +4,7 @@ import './index.css';
 // import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+import Homepage from './Pages/Home/Homepage';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -11,14 +12,15 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element:,
-    errorElement:,
+    element: <Homepage></Homepage>,
+    // errorElement: ,
   }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <RouterProvider router={router}>
+    
   </RouterProvider>
 );
 
