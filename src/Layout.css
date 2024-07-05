@@ -1,0 +1,18 @@
+:root {
+    --border: #2e344e;
+    --bg-color: #191d2b;
+    --text-color: white;
+    --link-color: white;
+    --active-link-color: #4CAF50;
+}
+.bg-light{
+    padding: 0px;
+}
+.padding{
+    padding: 0px;
+  
+}
+
+.bg-all{
+    background-color: var(--bg-color);
+}

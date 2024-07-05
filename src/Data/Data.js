@@ -5,3 +5,10 @@ export const Headerdata = [
         clchange: "mani",  
     },
 ]
+export const BannerData =[
+    {
+        id: 1,
+        heading:"Hi, I am ",
+        clchange:"Mani Ram",
+    }
+]

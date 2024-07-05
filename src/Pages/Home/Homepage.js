@@ -1,9 +1,10 @@
-import Headercomponent from '../../component/home/Header';
 
+import Bannercomponent from '../../component/home/banner/BannerComponent';
 const Homepage = () => {
     return (
         <div className="home">
-            <Headercomponent></Headercomponent>
+          
+            <Bannercomponent></Bannercomponent>
         </div>
     )
 }

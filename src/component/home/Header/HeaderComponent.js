@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from 'react-bootstrap';
-import { Headerdata } from "../../Data/Data";
+import { Headerdata } from "../../../Data/Data";
 import { NavLink } from 'react-router-dom';
-import './Header.css';
+import './HeaderComponent.css';
 
 const Headercomponent = () => {
     const [theme, setTheme] = useState('black-theme');
@@ -26,7 +26,7 @@ const Headercomponent = () => {
             <Container fluid>
                 <Row>
                     {Headerdata.map((ele, index) => (
-                        <Col md={3} className="bg" key={index}>
+                        <Col md={12} className="bg" key={index}>
                             <Row>
                                 <Col md={12}>
                                     <div className="header-inner">
@@ -41,7 +41,7 @@ const Headercomponent = () => {
                         </button>
                         <nav className={`navbar-custom ${navOpen ? 'open' : ''}`}>
                             <NavLink to="/" exact className="nav-link" activeClassName="active">Home</NavLink>
-                            <NavLink to="/about" className="nav-link" activeClassName="active">About</NavLink>
+                            <NavLink to="/About" className="nav-link" activeClassName="active">About</NavLink>
                             <NavLink to="/blogs" className="nav-link" activeClassName="active">Blogs</NavLink>
                             <NavLink to="/contact" className="nav-link" activeClassName="active">Contact</NavLink>
                             <NavLink to="/portfolio" className="nav-link" activeClassName="active">Portfolio</NavLink>
@@ -54,12 +54,11 @@ const Headercomponent = () => {
                                 </Col>
 
                             </Row>
-
                           
-                        </Col>
+                        </Col>          
                     ))}
-                </Row>
-                
+                    
+                </Row>              
             </Container>
         </>
     );

@@ -6,6 +6,7 @@
     --text-color: white;
     --link-color: white;
     --active-link-color: #4CAF50;
+    --border-right: #2e344e;
 }
 
 body.white-theme {
@@ -26,6 +27,7 @@ body.black-theme {
     background-color: var(--bg-color);
     color: var(--text-color);
     height: 100vh;
+    border-right: 1px solid var(--border-right); /* Assuming --border is a variable for the border color */
 }
 .bg-1 {
     background-color: var(--bg-color);

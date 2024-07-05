@@ -1,0 +1,19 @@
+:root {
+    --border: #2e344e;
+    --bg-color: #191d2b;
+    --text-color: white;
+    --link-color: white;
+    --active-link-color: #4CAF50;
+    --text-color-sec: #037fff;
+}
+
+.bg-2{
+    color: var(--text-color);
+    color: var(--text-color);
+  text-align: center;
+  padding-top: 192px;
+}
+.colorchange{
+    color: var(--text-color-sec);
+
+}
