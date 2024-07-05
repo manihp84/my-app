@@ -10,5 +10,7 @@ export const BannerData =[
         id: 1,
         heading:"Hi, I am ",
         clchange:"Mani Ram",
+        content: "I am a full stack developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
+        clchange_1:"cont",
     }
 ]

@@ -12,6 +12,7 @@ const BannerComponent = () => {
                             return (
                                 <Col md={9}>
                                     <h1 className="bg-2">{ele.heading}<span className="colorchange">{ele.clchange}</span></h1>
+                                    <p className={ele.clchange_1}>{ele.content}</p>
                                 </Col>
                             )
                         })

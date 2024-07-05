@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiny5&display=swap');
 :root {
     --border: #2e344e;
     --bg-color: #191d2b;
@@ -5,15 +6,27 @@
     --link-color: white;
     --active-link-color: #4CAF50;
     --text-color-sec: #037fff;
+    --text-color-third: #a4acc4;
+
 }
 
-.bg-2{
+.bg-2 {
     color: var(--text-color);
-    color: var(--text-color);
-  text-align: center;
-  padding-top: 192px;
+    text-align: center;
+    padding-top: 192px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
 }
-.colorchange{
+
+.colorchange {
     color: var(--text-color-sec);
 
+}
+
+.cont{
+    color: var(--text-color-third);
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    text-align: center;
 }

@@ -48,7 +48,7 @@ const Headercomponent = () => {
                             <NavLink to="/resume" className="nav-link" activeClassName="active">Resume</NavLink>
                         </nav>
                         <div className="rights">
-                        <p>@ All rights reserved </p>
+                        {/* <p>@ All rights reserved </p> */}
                         
                         </div>
                                 </Col>
