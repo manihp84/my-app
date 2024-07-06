@@ -1,3 +1,4 @@
+import { Facebook, Github, Instagram,} from "react-bootstrap-icons";
 export const Headerdata = [
     {
         id: 1,  
@@ -12,5 +13,11 @@ export const BannerData =[
         clchange:"Mani Ram",
         content: "I am a full stack developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
         clchange_1:"cont",
+        Facebook:<Facebook color="blue" size={20} />,
+        link:"https://www.facebook.com/maney.ram.50/",
+        Instagram:<Instagram color="blue" size={20}/>,
+        link_2:"https://www.instagram.com/mani_hp84/",
+        Github:<Github color="blue" size={20}/>,
+        link_3:"https://github.com/manihp84",
     }
 ]

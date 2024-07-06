@@ -7,6 +7,7 @@
     --link-color: white;
     --active-link-color: #4CAF50;
     --border-right: #2e344e;
+    --text-color-sec: #037fff;
 }
 
 body.white-theme {
@@ -89,7 +90,7 @@ body.black-theme {
 }
 
 .nav-link:hover {
-    color: var(--active-link-color);
+    color: var(--text-color-sec);
 }
 
 /* Theme Toggle Button */
