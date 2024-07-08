@@ -7,11 +7,11 @@ const Layout = () => {
     return (
         <Container fluid className='bg-all'>
             <Row>
-                <Col md={3} className="bg-light">
+                <Col Col xs={12} sm={3} md={3} lg={3} xl={3} className="bg-light">
                 <Headercomponent />
                     {/* Left column content */}
                 </Col>
-                <Col md={9} className='padding'>
+                <Col Col xs={12} sm={9} md={9} lg={9} xl={9} className='padding'>
                     <Outlet />
                 </Col>
             </Row>
