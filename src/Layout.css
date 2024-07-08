@@ -5,14 +5,23 @@
     --link-color: white;
     --active-link-color: #4CAF50;
 }
-.bg-light{
+
+.bg-light {
     padding: 0px;
-}
-.padding{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     padding: 0px;
-  
 }
 
-.bg-all{
+.padding {
+    padding: 0px;
+    position: relative;
+    left: 25%;
+    margin-bottom: 195px;
+}
+
+.bg-all {
     background-color: var(--bg-color);
 }

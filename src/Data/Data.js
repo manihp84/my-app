@@ -21,3 +21,11 @@ export const BannerData =[
         link_3:"https://github.com/manihp84",
     }
 ]
+
+export const AboutData =[
+    {
+        id: 1,
+        heading:"About Me",
+        imgsrc: process.env.PUBLIC_URL+"/images/contentimg/mani.jpeg",
+    }
+]

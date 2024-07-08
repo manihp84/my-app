@@ -35,7 +35,7 @@ const Headercomponent = () => {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col md={12} className="bg-1">
+                                <Col md={12} className="navbar-fixed bg-1">
                                 <button className="nav-toggle-btn" onClick={toggleNav}>
                             <i className="fas fa-bars"></i>
                         </button>

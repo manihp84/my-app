@@ -28,13 +28,16 @@ body.black-theme {
     background-color: var(--bg-color);
     color: var(--text-color);
     height: 100vh;
-    border-right: 1px solid var(--border-right); /* Assuming --border is a variable for the border color */
+    border-right: 1px solid var(--border-right);
+    /* Assuming --border is a variable for the border color */
 }
+
 .bg-1 {
     background-color: var(--bg-color);
     color: var(--text-color);
-    
+
 }
+
 .header-inner {
     align-items: center;
     display: flex;
@@ -70,7 +73,7 @@ body.black-theme {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    
+
     /* margin: 0 auto; */
     position: relative;
     top: 0;
@@ -80,7 +83,8 @@ body.black-theme {
 }
 
 .navbar-custom.open {
-    max-height: 300px; /* Adjust based on the number of links */
+    max-height: 300px;
+    /* Adjust based on the number of links */
 }
 
 .nav-link {
@@ -94,7 +98,8 @@ body.black-theme {
 }
 
 /* Theme Toggle Button */
-.theme-toggle-btn, .nav-toggle-btn {
+.theme-toggle-btn,
+.nav-toggle-btn {
     position: fixed;
     top: 10px;
     background-color: var(--bg-color);
@@ -108,19 +113,80 @@ body.black-theme {
 }
 
 .theme-toggle-btn {
-    right: 10px;
+    position: absolute;
+    right: 267px;
 }
 
-.nav-toggle-btn {
+
+/* .nav-toggle-btn {
     right: 60px;
-}
+} */
 
-.theme-toggle-btn:hover, .nav-toggle-btn:hover {
+
+.theme-toggle-btn:hover,
+.nav-toggle-btn:hover {
     background-color: var(--link-color);
     color: var(--bg-color);
 }
 
-/* Responsive navbar */
+.p-0 {
+    padding: 0px;
+}
+
+.rights p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 72px;
+}
+
+.rights h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 75px;
+
+}
+
+
+
+@media(min-width:576px) {
+    .navbar-custom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 22px;
+        margin: 0 auto;
+        position: relative;
+        top: -176px;
+        transition: max-height 0.3s ease-in-out;
+        max-height: 0;
+        overflow: hidden;
+        right: 311px;
+      }
+    .theme-toggle-btn {
+        position: absolute;
+        right: 633px;
+    }
+
+    .bg-2 {
+        color: var(--text-color);
+        text-align: center;
+        padding-top: 250px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+    }
+
+    .cont {
+        color: var(--text-color-third);
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
 @media (max-width: 767px) {
     .navbar-custom {
         width: 100%;
@@ -136,22 +202,4 @@ body.black-theme {
     .nav-toggle-btn {
         display: none;
     }
-}
-
-.p-0 {
- padding: 0px;
-}
-.rights p{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-left: 72px;
-}
-
-.rights h3{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-left: 75px;
-    
 }
