@@ -1,0 +1,74 @@
+:root {
+    --border: #2e344e;
+    --bg-color: #191d2b;
+    --text-color: white;
+    --link-color: white;
+    --active-link-color: #4CAF50;
+    --border-right: #2e344e;
+    --text-color-sec: #037fff;
+}
+
+body.white-theme {
+    --bg-color: #e4e4e4;
+    --text-color: black;
+    --link-color: black;
+    --active-link-color: #4CAF50;
+}
+
+body.black-theme {
+    --bg-color: #191d2b;
+    --text-color: white;
+    --link-color: white;
+    --active-link-color: #4CAF50;
+}
+/* Theme Toggle Button */
+.theme-toggle-btn
+ {
+    position: fixed;
+    top: 10px;
+    left: 55px;
+    background-color: var(--bg-color);
+    border: none;
+    color: var(--text-color);
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-toggle-btn {
+    position: absolute;
+   
+}
+
+@media(min-width: 556px){
+    .theme-toggle-btn {
+        position: absolute;
+       
+    }
+}
+@media(min-width: 768px){
+    .theme-toggle-btn {
+        position: absolute;
+       left: 10px;
+    }
+}
+@media(min-width: 992px){
+    .theme-toggle-btn {
+        position: absolute;
+       left: 10px;
+    }
+}
+@media(min-width: 1100px){
+    .theme-toggle-btn {
+        position: absolute;
+       
+    }
+}
+@media(min-width: 1200px){
+    .theme-toggle-btn {
+        position: absolute;
+       
+    }
+}

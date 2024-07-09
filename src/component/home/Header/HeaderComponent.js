@@ -5,14 +5,14 @@ import { NavLink } from 'react-router-dom';
 import './HeaderComponent.css';
 
 const Headercomponent = () => {
-    const [theme, setTheme] = useState('black-theme');
+    // const [theme, setTheme] = useState('black-theme');
     const [navOpen, setNavOpen] = useState(false);
 
-    const toggleTheme = () => {
-        const newTheme = theme === 'black-theme' ? 'white-theme' : 'black-theme';
-        setTheme(newTheme);
-        document.body.className = newTheme;
-    };
+    // const toggleTheme = () => {
+    //     const newTheme = theme === 'black-theme' ? 'white-theme' : 'black-theme';
+    //     setTheme(newTheme);
+    //     document.body.className = newTheme;
+    // };
 
     const toggleNav = () => {
         setNavOpen(!navOpen);
@@ -20,13 +20,13 @@ const Headercomponent = () => {
 
     return (
         <>
-            <button className="theme-toggle-btn" onClick={toggleTheme}>
+            {/* <button className="theme-toggle-btn" onClick={toggleTheme}>
                 <i className={`fas ${theme === 'black-theme' ? 'fa-sun' : 'fa-moon'}`}></i>
-            </button>
+            </button> */}
             <Container fluid>
                 <Row>
                     {Headerdata.map((ele, index) => (
-                        <Col md={12} className="bg" key={index}>
+                        <Col md={12}  className="bg" key={index}>
                             <Row>
                                 <Col md={12}>
                                     <div className="header-inner">

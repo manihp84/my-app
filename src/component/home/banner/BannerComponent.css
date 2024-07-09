@@ -12,14 +12,14 @@
 
 }
 
-.bg-2 {
+  .bg-2 {
     color: var(--text-color);
     text-align: center;
-    padding-top: 192px;
+    
     font-family: "Roboto", sans-serif;
     font-weight: 600;
-    font-size: 50px;
-}
+    font-size: 30px;
+  }
 
 .colorchange {
     color: var(--text-color-sec);

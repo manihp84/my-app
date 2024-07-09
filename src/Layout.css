@@ -25,3 +25,103 @@
 .bg-all {
     background-color: var(--bg-color);
 }
+.bg-light {
+    padding: 0px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0px;
+    display: contents;
+    flex-wrap: wrap;
+  }
+.padding {
+    padding: 0px;
+    position: relative;
+    left: 0;
+    margin-bottom: 195px;
+}
+@media(min-width: 556px){
+    .bg-light {
+        padding: 0px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 0px;
+        display: contents;
+       
+      }
+    .padding {
+        padding: 0px;
+        position: relative;
+        left: 0;
+        margin-bottom: 195px;
+    }
+}
+@media(min-width: 768px){
+    .bg-light {
+        padding: 0px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 0px;
+        display: flex;
+    }
+    .padding {
+        position: relative;
+        left: 25%;
+        padding-top: 220px;
+    }
+}
+@media(min-width: 992px){
+    .bg-light {
+        padding: 0px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 0px;
+        display: flex;
+    }
+    .padding {
+        position: relative;
+        left: 25%;
+        padding-top: 220px;
+    }
+}
+@media(min-width: 1100px){
+    .bg-light {
+        padding: 0px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 0px;
+        display: flex;
+    }
+    .padding {
+        position: relative;
+        left: 25%;
+        padding-top: 220px;
+    }
+}
+@media(min-width: 1200px){
+    .bg-light {
+        padding: 0px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 0px;
+        display: flex;
+    }
+    .padding {
+        /* padding: 0px; */
+        position: relative;
+        left: 25%;
+        padding-top: 220px;
+        /* margin-bottom: 195px; */
+    }
+}
