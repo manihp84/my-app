@@ -38,13 +38,13 @@ body.black-theme {
 }
 
 .theme-toggle-btn {
-    position: absolute;
+    position: fixed;
    
 }
 
 @media(min-width: 556px){
     .theme-toggle-btn {
-        position: absolute;
+        position: fixed;
        
     }
 }
