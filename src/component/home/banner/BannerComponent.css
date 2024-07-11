@@ -11,7 +11,9 @@
     --link-color-sec: #2e344e;
 
 }
-
+.pt-cont{
+    padding-top: 220px;
+}
   .bg-2 {
     color: var(--text-color);
     text-align: center;
@@ -53,4 +55,32 @@
 
 .socialicons li:hover{
     border-color: var(--text-color-sec);
+}
+.pt-cont{
+    padding-top: 20px;
+}
+@media(min-width: 556px){
+    .pt-cont{
+        padding-top: 20px;
+    }
+}
+@media(min-width: 768px){
+    .pt-cont{
+        padding-top: 220px;
+    }
+}
+@media(min-width: 992px){
+    .pt-cont{
+        padding-top: 220px;
+    }
+}
+@media(min-width: 1100px){
+    .pt-cont{
+        padding-top: 220px;
+    }
+}
+@media(min-width: 1200px){
+    .pt-cont{
+        padding-top: 220px;
+    }
 }

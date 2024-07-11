@@ -157,7 +157,7 @@ body.black-theme {
 
 
   .cont {
-    color: var(--text-color-third);
+    color: var(--text-color);
     font-family: "Roboto", sans-serif;
     font-size: 13px;
     text-align: center;
@@ -195,7 +195,7 @@ body.black-theme {
     }
 
     .cont {
-        color: var(--text-color-third);
+        color: var(--text-color);
         font-family: "Roboto", sans-serif;
         font-size: 15px;
         text-align: center;

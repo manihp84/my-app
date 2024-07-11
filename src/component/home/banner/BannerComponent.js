@@ -13,7 +13,7 @@ const BannerComponent = () => {
                         BannerData.map((ele, index) => {
                             return (
                                 <Col md={9}>
-                                    <h1 className="bg-2">{ele.heading}<span className="colorchange">{ele.clchange}</span></h1>
+                                    <h1 className="bg-2 pt-cont">{ele.heading}<span className="colorchange">{ele.clchange}</span></h1>
                                     <p className={ele.clchange_1}>{ele.content}</p>
                                     <ul className="socialicons">
                                         <li><a href={ele.link}>{ele.Facebook}</a></li>
