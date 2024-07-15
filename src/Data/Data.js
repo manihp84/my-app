@@ -102,11 +102,39 @@ export const EducationData=[
     },
     
 ]
+export const BlogsData=[
+    {
+        id: 1,
+        heading:"Blogs",
+        imgsrc: process.env.PUBLIC_URL+"/images/contentimg/blog-image-1.jpg",
+        content:"Markdown & Html supported blog.",
+        imgsrc_2: process.env.PUBLIC_URL+"/images/contentimg/blog-image-2.jpg",
+        content_2:"Installing NodeJS on your device.",
+    },
+]
+export const MoreblogData=[
+    {
+        id: 1,
+        imgsrc: process.env.PUBLIC_URL+"/images/contentimg/blog-image-3.jpg",
+        content:"UI/UX design starter with Adobe XD.",
+        imgsrc_2: process.env.PUBLIC_URL+"/images/contentimg/blog-image-4.jpg",
+        content_2:"Boost your post for increasing sales.",
+    },
+    {
+        id: 1,
+        imgsrc: process.env.PUBLIC_URL+"/images/contentimg/blog-image-5.jpg",
+        content:"Difference between GatsbyJS & NextJS.",
+        imgsrc_2: process.env.PUBLIC_URL+"/images/contentimg/blog-image-6.jpg",
+        content_2:"How to choose javascript framework for project.",
+    },
+]
+
 export const ContactData =[
     {
         id: 1,
         heading:"Contact",
         heading_1:"Get in Touch",
-
-    }
+       
+    },
 ]
+

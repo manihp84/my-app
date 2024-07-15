@@ -44,7 +44,7 @@ const Headercomponent = () => {
                             <NavLink to="/About" className="nav-link" activeClassName="active">About</NavLink>
                             <NavLink to="/resume" className="nav-link" activeClassName="active">Resume</NavLink>
                             <NavLink to="/blogs" className="nav-link" activeClassName="active">Blogs</NavLink>
-                            <NavLink to="/portfolio" className="nav-link" activeClassName="active">Portfolio</NavLink>
+                            {/* <NavLink to="/portfolio" className="nav-link" activeClassName="active">Portfolio</NavLink> */}
                             <NavLink to="/contact" className="nav-link" activeClassName="active">contact</NavLink>
                         </nav>
                         <div className="rights">

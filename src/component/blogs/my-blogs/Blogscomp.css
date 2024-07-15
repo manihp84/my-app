@@ -1,0 +1,67 @@
+:root {
+    --border: #2e344e;
+    --bg-color: #191d2b;
+    --text-color: white;
+    --link-color: white;
+    --active-link-color: #4CAF50;
+    --text-color-sec: #037fff;
+    --text-color-third: #a4acc4;
+    --link-color-sec: #2e344e;
+    --bg-color-img: #151927;
+
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.blog {
+    background: var(--bg-color-img);
+    padding: 15px;
+}
+
+.blog-img {
+    overflow: hidden;
+    position: relative;
+}
+.blog:hover .blog-img img {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .blog-img img {
+    transition: all .4s ease-out;
+    width: 100%;
+  }
+.blog-date {
+    background: var(--text-color-sec);
+    color: var(--text-color);
+    left: 20px;
+    min-height: 80px;
+    min-width: 80px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+}
+
+.date {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--link-color);
+    text-align: center;
+}
+
+.blog-date span {
+    display: block;
+}
+
+.month {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.blog-content {
+    padding-top: 15px;
+    color: var(--text-color);
+  }
