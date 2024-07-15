@@ -102,3 +102,11 @@ export const EducationData=[
     },
     
 ]
+export const ContactData =[
+    {
+        id: 1,
+        heading:"Contact",
+        heading_1:"Get in Touch",
+
+    }
+]

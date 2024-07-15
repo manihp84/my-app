@@ -1,0 +1,74 @@
+:root {
+    --border: #2e344e;
+    --bg-color: #191d2b;
+    --text-color: white;
+    --link-color: white;
+    --active-link-color: #4CAF50;
+    --text-color-sec: #037fff;
+    --text-color-third: #a4acc4;
+    --link-color-sec: #2e344e;
+
+}
+.contactform h4{
+    color: var(--link-color);
+}
+.form-field {
+    margin-top: 30px;
+    position: relative;
+}
+
+label {
+    background: var(--bg-color);
+    font-size: .94rem;
+    left: 15px;
+    padding: 0 10px;
+    pointer-events: none;
+    position: absolute;
+    top: -13px;
+    transition: all .4s ease-out;
+    color: var(--text-color-third);
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    border: 1px solid var(--border);
+    font-size: 1rem;
+    height: 50px;
+    padding: 0 15px;
+    vertical-align: middle;
+    width: 100%;
+    background: transparent;
+    color: var(--text-color-third);
+    font-family: Nunito, sans-serif;
+}
+
+textarea {
+    border: 1px solid #2e344e;
+    font-size: 1rem;
+    background: transparent;
+    color: #a4acc4;
+    font-family: Nunito, sans-serif;
+    resize: vertical;
+    line-height: inherit;
+    margin: 0;
+    width: 100%;
+    height: 196px;
+}
+button {
+    background: #037fff;
+    border: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: .9rem;
+    height: 50px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    padding: 0 30px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all .4s ease-out;
+    z-index: 1;
+}
