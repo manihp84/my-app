@@ -60,3 +60,45 @@ export const AboutServiceData =[
         content_3:"Developed and maintained scalable web applications using Python and Django, focusing on building secure backend systems.",
     }
 ]
+
+export const ResumeData =[
+    {
+        id: 1,
+        heading:"My Skills",
+        heading_1:"HTML",
+        content:"95%",
+        heading_2:"CSS",
+        content_2:"85%",
+        heading_3:"JavaScript",
+        content_3:"60%",
+        heading_4:"ReactJS",
+        content_4:"80%",
+        heading_5:"Bootstrap",
+        content_5:"70%",
+        heading_6:"Python",
+        content_6:"60%",
+        heading_7:"Django",
+        content_7:"70%",
+        heading_8:"Photoshop",
+        content_8:"65%",
+        
+
+    }
+]
+
+export const EducationData=[
+    {
+        id: 1,
+        heading:"Educational Qualifications",
+        date:"2018-2021",
+        heading_1:"Bachelor of Arts",
+        title:"Himachal Pradesh University",
+        content:"Graduated with a Bachelor of Arts in Geography and History from Himachal Pradesh University, where I developed strong analytical, critical thinking, and communication skills through a diverse curriculum that included humanities, social sciences, and arts.",
+        date_2:"2022-2023",
+        heading_2:"Full stack development",
+        title_2:"CBitss",
+        content_2:"Completed a full stack development course from CBitss, where I gained hands-on experience in developing web applications. I learned various technologies including HTML, CSS, JavaScript, React for front-end development, and Python, Django, and MySql for back-end development. The course also included training on version control using Github, deployment strategies, and best practices in software development.",
+
+    },
+    
+]

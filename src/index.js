@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import Homepage from './Pages/Home/Homepage';
 import About from './Pages/About/Aboutpage';
+import Resume from './Pages/Resume/Resume';
 import Layout from './Layout';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -20,7 +21,12 @@ const router = createBrowserRouter([
             {
                 path: "/About",
                 element: <About />
+            },
+            {
+                path: "/Resume",
+                element:<Resume/>
             }
+
         ]
     }
 ]);

@@ -1,0 +1,54 @@
+:root {
+    --border: #2e344e;
+    --bg-color: #191d2b;
+    --text-color: white;
+    --link-color: white;
+    --active-link-color: #4CAF50;
+    --text-color-sec: #037fff;
+    --text-color-third: #a4acc4;
+    --link-color-sec: #2e344e;
+
+}
+
+.resume {
+    display: flex;
+    margin-top: 30px;
+  }
+  .resume-summary {
+    align-self: flex-start;
+    flex: 0 0 220px;
+    max-width: 220px;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .resume-details {
+    padding-left: 50px;
+    position: relative;
+    margin-top: 30px;
+  }
+  .resume-details h5{
+    color: var(--text-color-sec);
+  font-weight: 700;
+  margin-bottom: 0;
+  }
+  .resume-details h6{
+    color: var(--link-color);
+  }
+  .resume-details p{
+    color: var(--link-color);
+    text-align: justify;
+  }
+  .resume-year {
+    color: var(--link-color);
+    margin-bottom: 0;
+  }
+  .resume-details::before {
+    background: var(--border);
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+  }

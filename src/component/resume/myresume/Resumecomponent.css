@@ -1,0 +1,45 @@
+:root {
+    --border: #2e344e;
+    --bg-color: #191d2b;
+    --text-color: white;
+    --link-color: white;
+    --active-link-color: #4CAF50;
+    --text-color-sec: #037fff;
+    --text-color-third: #a4acc4;
+    --link-color-sec: #2e344e;
+
+}
+.mt-30 {
+    margin-top: 30px;
+  }
+.progress-title {
+    font-weight: 600;
+    margin-bottom: 0;
+    color: var(--text-color);
+}
+
+.progress-inner {
+    align-items: center;
+    display: flex;
+    color: var(--text-color);
+    margin-bottom: 34px;
+}
+
+.progress-percentage {
+    flex: 0 0 60px;
+}
+
+
+
+.progress-container {
+    background: var(--border);
+    display: block;
+    height: 6px;
+    position: relative;
+    width: 100%;
+
+}
+
+.progress {
+    height: 10px; /* Adjust the height as needed */
+  }
